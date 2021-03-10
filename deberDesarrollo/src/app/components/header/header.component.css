@@ -1,0 +1,21 @@
+.container_slider {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background:#37466F;
+}
+
+.image_slider {
+    /*transform: scale(0.85);*/
+    margin-top: 50px; 
+    margin-bottom: 0px;
+    /*width: 100%;
+    height: auto;*/
+    max-width: 100%;
+    height: auto;
+}
