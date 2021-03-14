@@ -11,6 +11,7 @@ import { DivisionComponent } from './components/division/division.component';
 import { MultiplicacionComponent } from './components/multiplicacion/multiplicacion.component';
 import { AnagramaComponent } from './components/anagrama/anagrama.component';
 import { CuboMagicoComponent } from './components/cubo-magico/cubo-magico.component';
+import * as jQuery from 'jquery';
 
 @NgModule({
   declarations: [
