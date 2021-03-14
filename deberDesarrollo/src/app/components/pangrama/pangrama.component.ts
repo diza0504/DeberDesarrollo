@@ -12,7 +12,6 @@ export class PangramaComponent implements OnInit {
   lstTextoAnalizar: Array<string> = [];
   lstResultados: Array<string> = [];
   fileToUpload: File = null;
-  httpClient: any;
   mensaje: string;
 
   constructor() { }

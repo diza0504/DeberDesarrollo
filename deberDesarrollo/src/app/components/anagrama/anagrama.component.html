@@ -1,1 +1,21 @@
-<p>anagrama works!</p>
+<div class="container"
+    style="margin-top: 15px; margin-bottom: 15px; background-color: white; border: solid 1px rgb(180, 30, 38); border-radius: 15px; width: 1110px;">
+    <div style="text-align: center; color: rgb(180, 30, 38);margin-top: 15px;margin-bottom: 15px;">
+        <h2>ANAGRAMA</h2>
+    </div>
+    <div class="container" style="text-align: center;">
+        <div style="align-content: center;margin-bottom: 10px;">
+            <textarea type="text" id="txtTexto" name="txtTexto" rows="5" cols="50"></textarea>
+            <br>
+            <input type="file" id="customFile" style="width: 80%;" accept="text/plain" style="text-align: center;"
+                (change)="handleFileInput($event.target.files)" />
+        </div>
+        <div style="text-align: center;">
+            <button id="btnProcesar" name="btnProcesar" (click)="procesarTexto()" class="btn btn-primary"
+                style="margin-bottom: 10px;">Procesar</button>
+            <div style="color: red; text-align: center; font-size: 20px;">
+                {{mensaje}}
+            </div>
+        </div>
+    </div>
+</div>
